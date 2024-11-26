@@ -256,13 +256,11 @@ y_train_processed = (y_train == 'churned').astype(int)
 y_test_processed = (y_test == 'churned').astype(int)
 ```
 
-``` python
 # Train and Evaluate Different Classifiers
 
 In this section, we compare three classifiers: `Logistic Regression`, `Decision Tree`, and `Random Forest`.
 
 This process involves the use of metrics such as `Accuracy` and `Confusion Matrix`.
-```
 
 ``` python
 # Define classifiers
